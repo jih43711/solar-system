@@ -1,0 +1,275 @@
+style.css
+html, body {
+    /* The universe takes up all available space */
+    width: 5000px;
+    height: 5000px;
+    
+    /* The universe is black */
+    background-color: black;
+}
+h1{
+    font-size:300px; 
+    font-family: Vivaldi;
+    color: pink;
+    text-align: center;
+}
+h1:hover{
+    color: grey;    
+}
+
+h3{
+    font-size:150px;
+    font-family: Vivaldi;
+    color: pink;
+    position: absolute;
+    top: 250px;
+    left: 3000px;
+}
+h3:hover{
+    color: grey;    
+}
+#sun {
+    position: absolute;
+    top: 2450px;
+    left: 2480px;
+
+    height: 250px;
+    width: 250px;
+}
+
+#mercury{
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#mercury-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 2380px;
+    left: 2400px;
+    
+    -webkit-animation: spin-right 5s linear infinite;
+    -moz-animation: spin-right 5s linear infinite;
+    -ms-animation: spin-right 5s linear infinite;
+    -o-animation: spin-right 5s linear infinite;
+    animation: spin-right 5s linear infinite;
+}
+
+#venus{
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+#venus-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    top: 2130px;
+    left: 2170px;
+    
+    -webkit-animation: spin-right 6s linear infinite;
+    -moz-animation: spin-right 6s linear infinite;
+    -ms-animation: spin-right 6s linear infinite;
+    -o-animation: spin-right 6s linear infinite;
+    animation: spin-right 6s linear infinite;
+}
+
+#earth{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 170px;
+    left: 80px;
+}
+
+#earth-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 1980px;
+    left: 2000px;
+    
+    -webkit-animation: spin-right 7s linear infinite;
+    -moz-animation: spin-right 7s linear infinite;
+    -ms-animation: spin-right 7s linear infinite;
+    -o-animation: spin-right 7s linear infinite;
+    animation: spin-right 7s linear infinite;
+}
+
+#mars{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 170px;
+    left: 220px;
+}
+
+#mars-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 1600px;
+    width: 1600px;
+    position: absolute;
+    top: 1780px;
+    left: 1800px;
+    
+    -webkit-animation: spin-right 8s linear infinite;
+    -moz-animation: spin-right 8s linear infinite;
+    -ms-animation: spin-right 8s linear infinite;
+    -o-animation: spin-right 8s linear infinite;
+    animation: spin-right 8s linear infinite;
+}
+
+#jupiter{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    top: 210px;
+    left: 220px;
+}
+
+#jupiter-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 2000px;
+    width: 2000px;
+    position: absolute;
+    top: 1580px;
+    left: 1600px;
+    
+    -webkit-animation: spin-right 9s linear infinite;
+    -moz-animation: spin-right 9s linear infinite;
+    -ms-animation: spin-right 9s linear infinite;
+    -o-animation: spin-right 9s linear infinite;
+    animation: spin-right 9s linear infinite;
+}
+
+#saturn{
+    height: 190px;
+    width: 250px;
+    position: relative;
+    top: 210px;
+    left: 220px;
+}
+
+#saturn-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 2400;
+    width: 2400px;
+    position: absolute;
+    top: 1380px;
+    left: 1400px;
+    
+    -webkit-animation: spin-right 10s linear infinite;
+    -moz-animation: spin-right 10s linear infinite;
+    -ms-animation: spin-right 10s linear infinite;
+    -o-animation: spin-right 10s linear infinite;
+    animation: spin-right 10s linear infinite;
+}
+
+#uranus{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    top: 340px;
+    left: 320px;
+}
+
+#uranus-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 2800px;
+    width: 2800px;
+    position: absolute;
+    top: 1180px;
+    left: 1200px;
+    
+    -webkit-animation: spin-right 11s linear infinite;
+    -moz-animation: spin-right 11s linear infinite;
+    -ms-animation: spin-right 11s linear infinite;
+    -o-animation: spin-right 11s linear infinite;
+    animation: spin-right 11s linear infinite;
+}
+
+#neptune{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    top: 480px;
+    left: 320px;
+}
+
+#neptune-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 3200;
+    width: 3200;
+    position: absolute;
+    top: 980px;
+    left: 1000px;
+    
+    -webkit-animation: spin-right 12s linear infinite;
+    -moz-animation: spin-right 12s linear infinite;
+    -ms-animation: spin-right 12s linear infinite;
+    -o-animation: spin-right 12s linear infinite;
+    animation: spin-right 12s linear infinite;
+}
+
+#pluto{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 640px;
+    left: 320px;
+}
+
+#pluto-orbit{    
+    border: white solid 1px;
+    border-radius: 100%;
+    height: 3600;
+    width: 3600;
+    position: absolute;
+    top: 780px;
+    left: 800;
+    
+    -webkit-animation: spin-right 13s linear infinite;
+    -moz-animation: spin-right 13s linear infinite;
+    -ms-animation: spin-right 13s linear infinite;
+    -o-animation: spin-right 13s linear infinite;
+    animation: spin-right 13s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
